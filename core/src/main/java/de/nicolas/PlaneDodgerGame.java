@@ -7,8 +7,8 @@ import de.nicolas.utils.game.BaseGame;
 public class PlaneDodgerGame extends BaseGame {
 
     @Override
-    public void setScreen(Screen screen) {
-        super.setScreen(screen);
+    public void create() {
+        super.create();
         setActiveScreen(new LevelScreen());
     }
 }
